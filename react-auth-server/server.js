@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(cors());
 
 const authCheck = jwt({
-  secret: new Buffer('d_RXBfx-pWkg4Av0sjt85Od_efedb-lN4JuZrWiue12PIAHI7AWqaYZ531qR10WO', 'base64'),
+  secret: new Buffer('xxx', 'base64'),
   audience: '3VlNGXhV6N2CtatDUZUk5ITRBk6wqYlW'
 });
 
